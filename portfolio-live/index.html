@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stanslaus Mrope | Data Analyst</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+ 
+</head>
+<body>
+
+  <!-- ══ NAVIGATION ══ -->
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about"    onclick="closeMenu()">About</a>
+    <a href="#skills"   onclick="closeMenu()">Skills</a>
+    <a href="#projects" onclick="closeMenu()">Projects</a>
+    <a href="#experience" onclick="closeMenu()">Experience</a>
+    <a href="#contact"  onclick="closeMenu()">Contact</a>
+  </div>
+
+  <!-- ══ HERO ══ -->
+  <section id="hero">
+    <div class="hero-inner">
+      <div>
+        <div class="hero-tag">Data Analytics Professional</div>
+        <h1 class="hero-name">Stanslaus<br><span>Mrope</span></h1>
+        <p class="hero-role">Turning Raw Data into Actionable Insights</p>
+        <p class="hero-desc">
+          A dedicated Data Analyst with expertise in statistical analysis, business intelligence,
+          and data-driven decision making. Leveraging powerful analytics tools and programming
+          languages to uncover patterns, trends, and opportunities hidden within complex datasets.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact"  class="btn-outline">Get In Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat-row">
+          <div class="stat-item">
+            <div class="stat-num">21</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">6</div>
+            <div class="stat-label">Tools Mastered</div>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-num">2</div>
+            <div class="stat-label">Languages</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">TZ</div>
+            <div class="stat-label">Based In</div>
+          </div>
+        </div>
+        <div class="hero-bar-wrap">
+          <div class="hero-bar-label"><span>Statistical Analysis</span><span>95%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:95%"></div></div>
+          <div class="hero-bar-label"><span>Data Visualization</span><span>90%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:90%; animation-delay:0.2s"></div></div>
+          <div class="hero-bar-label"><span>Predictive Analytics</span><span>85%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:85%; animation-delay:0.4s"></div></div>
+          <div class="hero-bar-label"><span>Business Intelligence</span><span>92%</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:92%; animation-delay:0.6s"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ ABOUT ══ -->
+  <section id="about">
+    <div class="section-label">01 &mdash; About Me</div>
+    <h2 class="section-title">Who I Am</h2>
+    <div class="divider"></div>
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <p>
+          I am <strong>Stanslaus Mrope</strong>, a passionate and detail-oriented
+          <strong>Data Analyst</strong> based in Tanzania. My work sits at the intersection
+          of statistics, technology, and strategic thinking — with one goal: transforming
+          complex, unstructured data into clear, evidence-based stories that drive smarter decisions.
+        </p>
+        <p>
+          My analytics journey spans across multiple domains including <strong>customer behavior
+          analytics</strong>, <strong>education performance analysis</strong>, <strong>healthcare
+          data quality</strong>, <strong>financial trend analysis</strong>, and
+          <strong>agricultural data modeling</strong>. I believe that data, when properly collected,
+          cleaned, and analyzed, holds the power to transform institutions and communities.
+        </p>
+        <p>
+          In everything I do, I combine <strong>rigorous statistical methodology</strong> with
+          practical business understanding. Whether that means running regression models in SPSS
+          and Stata, building interactive dashboards in Power BI, writing analytical scripts in
+          Python and R, or presenting findings clearly through Excel &mdash; I bring precision
+          and clarity to every stage of the analytics pipeline.
+        </p>
+        <p>
+          I am especially passionate about using data analytics to address real challenges
+          in the <strong>Tanzanian and East African context</strong> &mdash; from improving
+          government reporting systems to detecting fraud, monitoring educational outcomes,
+          and supporting data-driven policy decisions at scale.
+        </p>
+        <div class="about-tag-list">
+          <span class="about-tag">Statistical Analysis</span>
+          <span class="about-tag">Data Cleaning</span>
+          <span class="about-tag">Business Intelligence</span>
+          <span class="about-tag">Dashboards &amp; Reports</span>
+          <span class="about-tag">Predictive Modeling</span>
+          <span class="about-tag">Exploratory Data Analysis</span>
+          <span class="about-tag">Survey Analytics</span>
+          <span class="about-tag">Time Series</span>
+        </div>
+      </div>
+
+      <div class="reveal" style="transition-delay:0.15s">
+        <figure class="about-photo">
+          <img src="images/profile.jpg" alt="Photo of Stanslaus Mrope in a navy blazer, smiling" width="477" height="1008" loading="lazy">
+          <figcaption>Stanslaus Mrope &middot; <span>Data Analyst</span></figcaption>
+        </figure>
+        <div class="about-card">
+          <div class="about-card-title">📊 Analytics Philosophy</div>
+          <p>
+            Data analytics is not just about numbers &mdash; it is about asking the right
+            questions, finding the right patterns, and communicating insights in ways that
+            non-technical stakeholders can act upon.
+          </p>
+          <p>
+            I follow a rigorous, reproducible approach: define the problem, gather quality data,
+            perform thorough EDA, apply appropriate statistical methods, validate results,
+            and deliver actionable recommendations.
+          </p>
+        </div>
+        <div class="about-card">
+          <div class="about-card-title">🎯 Focus Areas</div>
+          <p>
+            My core focus is on <strong style="color:var(--amber)">descriptive</strong>,
+            <strong style="color:var(--amber)">diagnostic</strong>,
+            <strong style="color:var(--amber)">predictive</strong>, and
+            <strong style="color:var(--amber)">prescriptive</strong> analytics &mdash;
+            covering the full data analytics spectrum. From understanding what happened,
+            to why it happened, to what will happen next, and what action should be taken.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SKILLS ══ -->
+  <section id="skills">
+    <div class="section-label">02 &mdash; Skills</div>
+    <h2 class="section-title">Analytics Toolkit</h2>
+    <div class="divider"></div>
+    <div class="skills-grid">
+
+      <!-- Category 1: Software Tools -->
+      <div class="skill-category cat1 reveal">
+        <div class="cat-icon">⚙️</div>
+        <div class="cat-title">Software Tools for Analytics</div>
+        <div class="skill-item">
+          <span class="skill-name">SPSS</span>
+          <div class="skill-dots">
+            <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div>
+            <div class="dot on"></div><div class="dot on"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Stata</span>
+          <div class="skill-dots">
+            <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div>
+            <div class="dot on"></div><div class="dot"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Power BI</span>
+          <div class="skill-dots">
+            <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div>
+            <div class="dot on"></div><div class="dot on"></div>
+          </div>
+        </div>
+        <p class="skill-desc">
+          Proficient in industry-standard statistical software and BI platforms for advanced data analysis,
+          regression modeling, survey data processing, and interactive dashboard creation.
+        </p>
+      </div>
+
+      <!-- Category 2: Microsoft Tools -->
+      <div class="skill-category cat2 reveal" style="transition-delay:0.1s">
+        <div class="cat-icon">📑</div>
+        <div class="cat-title">Microsoft Tools for Analytics</div>
+        <div class="skill-item">
+          <span class="skill-name">Excel</span>
+          <div class="skill-dots">
+            <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div>
+            <div class="dot on"></div><div class="dot on"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Word</span>
+          <div class="skill-dots">
+            <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div>
+            <div class="dot on"></div><div class="dot"></div>
+          </div>
+        </div>
+        <p class="skill-desc">
+          Advanced Excel skills covering pivot tables, VLOOKUP, dynamic charts, conditional formatting,
+          and data validation. Strong report-writing skills in Word for presenting analytical findings
+          to both technical and non-technical audiences.
+        </p>
+      </div>
+
+      <!-- Category 3: Programming Languages -->
+      <div class="skill-category cat3 reveal" style="transition-delay:0.2s">
+        <div class="cat-icon">💻</div>
+        <div class="cat-title">Programming Languages for Analytics</div>
+        <div class="skill-item">
+          <span class="skill-name">Python</span>
+          <div class="skill-dots">
+            <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div>
+            <div class="dot on"></div><div class="dot on"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">R</span>
+          <div class="skill-dots">
+            <div class="dot on"></div><div class="dot on"></div><div class="dot on"></div>
+            <div class="dot on"></div><div class="dot"></div>
+          </div>
+        </div>
+        <p class="skill-desc">
+          Python analytics stack: pandas, NumPy, matplotlib, seaborn, scikit-learn.
+          R expertise includes tidyverse, ggplot2, dplyr, and statistical modeling packages.
+          Both languages used for data wrangling, EDA, modeling, and automated reporting.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ PROJECTS ══ -->
+  <section id="projects">
+    <div class="section-label">03 &mdash; Projects</div>
+    <h2 class="section-title">Analytics Projects</h2>
+    <div class="divider"></div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 01</div>
+        </div>
+        <div class="project-title">Customer Churn Analytics</div>
+        <p class="project-desc">
+          Analyzed customer behavior data to identify key drivers of churn for a telecommunications
+          company. Applied logistic regression, decision trees, and survival analysis to predict
+          which customers were at risk of leaving. Delivered a Power BI dashboard with real-time
+          churn probability scores, enabling targeted retention strategies that reduced churn by 18%.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Power BI</span>
+          <span class="tag amber">Logistic Regression</span>
+          <span class="tag amber">Churn Prediction</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.07s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 02</div>
+        </div>
+        <div class="project-title">Student Performance Detection</div>
+        <p class="project-desc">
+          Developed a predictive analytics model to identify at-risk students in secondary schools
+          across Tanzania. Using academic records, attendance patterns, and socioeconomic indicators,
+          built classification models in R and SPSS to flag students needing early intervention.
+          Results were visualized in interactive Excel dashboards for school administrators.
+        </p>
+        <div class="project-tags">
+          <span class="tag">R</span>
+          <span class="tag">SPSS</span>
+          <span class="tag amber">Classification</span>
+          <span class="tag amber">Education Analytics</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.14s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 03</div>
+        </div>
+        <div class="project-title">Sales Performance Dashboard Analytics</div>
+        <p class="project-desc">
+          Built a comprehensive sales analytics solution for a retail business, consolidating data
+          from multiple outlets into a unified Power BI dashboard. Analysis covered revenue trends,
+          product performance, regional comparisons, and seasonal patterns. Used Python for data
+          cleaning and Stata for time-series forecasting of future sales volumes.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Power BI</span>
+          <span class="tag">Python</span>
+          <span class="tag purple">Time Series</span>
+          <span class="tag amber">Stata</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.21s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 04</div>
+        </div>
+        <div class="project-title">Healthcare Data Quality Analytics</div>
+        <p class="project-desc">
+          Conducted a thorough data quality assessment of patient records across public health
+          facilities in Tanzania. Using SPSS and Python, identified patterns of missing data,
+          duplicate entries, inconsistencies, and outliers. Developed a standardized data quality
+          scorecard and reporting template in Word and Excel to guide ongoing data collection improvements.
+        </p>
+        <div class="project-tags">
+          <span class="tag">SPSS</span>
+          <span class="tag">Python</span>
+          <span class="tag purple">Data Quality</span>
+          <span class="tag amber">Healthcare</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.28s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 05</div>
+        </div>
+        <div class="project-title">Agricultural Yield Analytics</div>
+        <p class="project-desc">
+          Analyzed multi-season crop yield data from smallholder farmers in rural Tanzania to
+          determine the impact of fertilizer use, rainfall, soil type, and farming practices on
+          productivity. Applied multiple linear regression in Stata and R, and visualized findings
+          using ggplot2 and Power BI maps. Insights were used to inform agricultural extension program design.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Stata</span>
+          <span class="tag">R</span>
+          <span class="tag purple">Regression</span>
+          <span class="tag amber">Agriculture</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.35s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 06</div>
+        </div>
+        <div class="project-title">Social Media Sentiment Analytics</div>
+        <p class="project-desc">
+          Collected and analyzed social media data to measure public sentiment toward a
+          government public health campaign. Used Python (NLTK, TextBlob) for text preprocessing
+          and sentiment scoring. Produced trend analysis and word frequency visualizations
+          to track how public perception shifted over time across different demographics and geographic regions.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">Excel</span>
+          <span class="tag purple">Sentiment Analysis</span>
+          <span class="tag amber">NLP</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.42s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 07</div>
+        </div>
+        <div class="project-title">Financial Expenditure Analytics</div>
+        <p class="project-desc">
+          Performed a detailed analytics audit of departmental expenditure data for a public
+          institution, identifying budget overruns, irregular spending patterns, and
+          under-utilized allocations. Developed automated Excel reporting models with dynamic
+          charts, and built a Power BI dashboard for finance managers to monitor budget
+          utilization in real time across all cost centers.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Excel</span>
+          <span class="tag">Power BI</span>
+          <span class="tag purple">Budget Analytics</span>
+          <span class="tag amber">Finance</span>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.07s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 08</div>
+          <a class="live-pill" href="https://analytics-studio-ten.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open live app: DataFlow Analyst — Analytics Studio"><span class="live-dot"></span>Live App</a>
+        </div>
+        <div class="project-title">DataFlow Analyst &mdash; Analytics Studio</div>
+        <div class="app-preview">
+          <div class="ap-bar"><span class="ap-dots"><i></i><i></i><i></i></span><span class="ap-url">analytics-studio-ten.vercel.app</span></div>
+          <div class="ap-screen">
+            <img class="ap-shot" src="previews/dataflow.webp" alt="DataFlow Analyst opening screen: a secure workspace sign-in card over a dark blue data-grid background" width="1280" height="800" loading="lazy">
+            <a class="ap-open" href="https://analytics-studio-ten.vercel.app/" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><span>Open live app</span></a>
+          </div>
+        </div>
+        <p class="project-desc">
+          Web platform that guides a user through the full analytics workflow in one place:
+          secure CSV/Excel upload, dataset overview (rows, columns, types, missing values),
+          guided data cleaning (missing values, duplicates, type fixes), feature selection,
+          exploratory data analysis, and interactive charts with export. Cleaned data can be
+          downloaded as CSV or Excel, and every dataset, chart and analysis snapshot is saved
+          in a personal materials archive. It also includes a &ldquo;Ask your data&rdquo; Q&amp;A
+          feature, an in-app help assistant, English/Kiswahili support, and Light/Dark modes.
+        </p>
+        <div class="project-tags">
+          <span class="tag">TypeScript</span>
+          <span class="tag">React</span>
+          <span class="tag amber">Data Cleaning</span>
+          <span class="tag amber">EDA</span>
+          <span class="tag purple">AI Q&amp;A</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="https://analytics-studio-ten.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo &#8599;</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.14s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 09</div>
+          <a class="live-pill" href="https://diabets-sii2.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open live app: Patient Risk Assessment System (Capstone)"><span class="live-dot"></span>Live App</a>
+        </div>
+        <div class="project-title">AfyaTathmini &mdash; Patient Risk Assessment (Capstone)</div>
+        <div class="app-preview">
+          <div class="ap-bar"><span class="ap-dots"><i></i><i></i><i></i></span><span class="ap-url">diabets-sii2.vercel.app</span></div>
+          <div class="ap-screen" style="aspect-ratio:1327 / 605">
+            <img class="ap-shot" src="previews/patient-risk.webp" alt="AfyaTathmini opening screen: a blue page with the headline “Fahamu hatari yako ya kisukari kabla haijawa tatizo” and buttons to start a free assessment or sign in" width="1327" height="605" loading="lazy">
+            <a class="ap-open" href="https://diabets-sii2.vercel.app/" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><span>Open live app</span></a>
+          </div>
+        </div>
+        <p class="project-desc">
+          Kiswahili digital health system, built as the Group 17 capstone under Dr. Bernada Sianga, that
+          helps people understand their risk of diabetes in a few minutes. Users register and sign in,
+          complete a short health assessment (age, BMI, glucose, blood pressure, cholesterol and lifestyle
+          factors) and receive a Low, Medium or High risk level with the main contributing factors and
+          health recommendations. It keeps each user&rsquo;s assessment history, produces downloadable
+          reports, and lets a patient request a doctor consultation with their latest results attached.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Web App</span>
+          <span class="tag">Kiswahili</span>
+          <span class="tag amber">Healthcare</span>
+          <span class="tag amber">Risk Assessment</span>
+          <span class="tag purple">Capstone</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="https://diabets-sii2.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo &#8599;</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.21s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 10</div>
+          <a class="live-pill" href="https://stock-kitchen-stock.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open live app: JikoStock — Kitchen Stock &amp; Sales Tracker"><span class="live-dot"></span>Live App</a>
+        </div>
+        <div class="project-title">JikoStock &mdash; Kitchen Stock &amp; Sales Tracker</div>
+        <div class="app-preview">
+          <div class="ap-bar"><span class="ap-dots"><i></i><i></i><i></i></span><span class="ap-url">stock-kitchen-stock.vercel.app</span></div>
+          <div class="ap-screen" style="aspect-ratio:1354 / 612">
+            <img class="ap-shot" src="previews/jikostock.webp" alt="JikoStock Kitchen Stock screen: a stock sheet table with date, item, open, in, total, sales, closing, system and debt columns, saved sheets and a sales report" width="1354" height="612" loading="lazy">
+            <a class="ap-open" href="https://stock-kitchen-stock.vercel.app/" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><span>Open live app</span></a>
+          </div>
+        </div>
+        <p class="project-desc">
+          Web app for food and beverage sellers to record daily kitchen stock and track sales. Each user
+          signs in to a personal stock sheet with date, item, open, in, total (calculated automatically),
+          sales, closing, system and debt columns, plus a totals row. Sheets can be saved under a name,
+          reopened from &ldquo;My Saved Sheets&rdquo; and downloaded. A Sales Report shows results by day,
+          week or month and downloads as a PDF. Includes language switching and Light/Dark mode.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Web App</span>
+          <span class="tag">Authentication</span>
+          <span class="tag amber">Sales Reporting</span>
+          <span class="tag amber">Inventory</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="https://stock-kitchen-stock.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo &#8599;</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.28s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 11</div>
+          <a class="live-pill" href="https://dukahesabu.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Open live app: DukaHesabu"><span class="live-dot"></span>Live App</a>
+        </div>
+        <div class="project-title">DukaHesabu &mdash; Small Shop Sales Tracker</div>
+        <div class="app-preview">
+          <div class="ap-bar"><span class="ap-dots"><i></i><i></i><i></i></span><span class="ap-url">dukahesabu.netlify.app</span></div>
+          <div class="ap-screen">
+            <img class="ap-shot" src="previews/dukahesabu.webp" alt="DukaHesabu on a phone: the sales screen with a receipt, the dashboard with top-selling products, and the products list" width="1600" height="1000" loading="lazy">
+            <a class="ap-open" href="https://dukahesabu.netlify.app/" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-hidden="true"><span>Open live app</span></a>
+          </div>
+        </div>
+        <p class="project-desc">
+          Mobile-friendly web app that helps small shop owners track daily sales. Each sale records the
+          customer&rsquo;s name and phone, the products and quantities, and builds a receipt with the total
+          in TZS. Comes with 17 ready-made everyday products (prices can be changed, products added or
+          removed) and a dashboard for Today, Week, Month, Year or All time showing sales, revenue, items
+          sold, the top and lowest-selling products, simple stocking recommendations and a full sales
+          history. Reports can be sent by email or downloaded as CSV. Works in Kiswahili and English with
+          Light/Dark mode, and runs entirely in the browser with no server.
+        </p>
+        <div class="project-tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag amber">Sales Tracking</span>
+          <span class="tag purple">Dashboard</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link" href="https://dukahesabu.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo &#8599;</a>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+    <h3 class="projects-subtitle reveal">Python Data Analysis Notebooks</h3>
+    <div class="projects-grid">
+
+      <div class="project-card reveal" style="transition-delay:0.0s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 12</div>
+        </div>
+        <div class="project-title">Student Math Performance Analytics</div>
+        <button class="dash-preview" type="button" data-full="previews/math.webp" aria-label="Enlarge dashboard preview: Student Math Performance Analytics">
+          <img src="previews/math.webp" alt="Dashboard preview of Student Math Performance Analytics: students by school, urban vs rural address and correlation with the final grade" width="1200" height="675" loading="lazy">
+          <span class="dp-zoom">View larger</span>
+        </button>
+        <p class="project-desc">
+          Exploratory analysis of a dataset of 395 secondary-school students, answering more than 250 analytical questions. Covered demographics (age, gender, school, urban vs rural address), study time, absences, travel time, family support and romantic relationships, and how each relates to the final grade (G3). Used grouped statistics, correlations and seaborn visualizations to compare student groups.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">pandas</span>
+          <span class="tag amber">Seaborn</span>
+          <span class="tag amber">Education Analytics</span>
+          <span class="tag purple">EDA</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link outline" href="notebooks/student-math-performance.html" target="_blank" rel="noopener">View Notebook &#8599;</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.07s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 13</div>
+        </div>
+        <div class="project-title">Bank Marketing &mdash; Term Deposit Analysis</div>
+        <button class="dash-preview" type="button" data-full="previews/bank.webp" aria-label="Enlarge dashboard preview: Bank Marketing — Term Deposit Analysis">
+          <img src="previews/bank.webp" alt="Dashboard preview of Bank Marketing — Term Deposit Analysis: deposit rate by contact method, marital status and housing loan" width="1200" height="675" loading="lazy">
+          <span class="dp-zoom">View larger</span>
+        </button>
+        <p class="project-desc">
+          Analyzed a bank marketing dataset through 40 business questions to understand which customers make a term deposit. Examined age, job, marital status, education, balance, housing and personal loans, default history, contact method, call duration, month of contact and previous campaign outcomes. Findings included that call duration and previous contacts strongly influence deposit success, and that cellular contact had the highest success rate.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">pandas</span>
+          <span class="tag amber">Seaborn</span>
+          <span class="tag amber">Banking</span>
+          <span class="tag purple">Customer Analytics</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link outline" href="notebooks/bank-marketing.html" target="_blank" rel="noopener">View Notebook &#8599;</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.14s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 14</div>
+        </div>
+        <div class="project-title">Employee Salary Analytics</div>
+        <button class="dash-preview" type="button" data-full="previews/emp.webp" aria-label="Enlarge dashboard preview: Employee Salary Analytics">
+          <img src="previews/emp.webp" alt="Dashboard preview of Employee Salary Analytics: average salary by department and employees by ethnicity" width="1200" height="675" loading="lazy">
+          <span class="dp-zoom">View larger</span>
+        </button>
+        <p class="project-desc">
+          Analyzed an employee dataset to understand what drives annual salary. Explored salary against age, department, gender, country, city, job title and ethnicity, and cleaned the data by renaming fields and removing unused date columns. Found that salary rises with age, Marketing had the highest average departmental salary, and women were the larger group of employees while men had a higher average salary.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">pandas</span>
+          <span class="tag amber">Seaborn</span>
+          <span class="tag amber">HR Analytics</span>
+          <span class="tag purple">Salary Analysis</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link outline" href="notebooks/employee-salary.html" target="_blank" rel="noopener">View Notebook &#8599;</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.21s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 15</div>
+        </div>
+        <div class="project-title">Workforce Compensation by Business Unit</div>
+        <button class="dash-preview" type="button" data-full="previews/work.webp" aria-label="Enlarge dashboard preview: Workforce Compensation by Business Unit">
+          <img src="previews/work.webp" alt="Dashboard preview of Workforce Compensation by Business Unit: headcount and average salary by business unit and gender" width="1200" height="675" loading="lazy">
+          <span class="dp-zoom">View larger</span>
+        </button>
+        <p class="project-desc">
+          Second employee analytics study focused on how the workforce is structured and paid. Compared headcount and average salary by business unit, bonus levels by department, the relationship between gender and average annual salary, job titles by country, and ethnic group pay patterns, using grouped summaries and charts to support clear comparisons.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">pandas</span>
+          <span class="tag amber">Matplotlib</span>
+          <span class="tag amber">HR Analytics</span>
+          <span class="tag purple">Group Comparison</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link outline" href="notebooks/workforce-compensation.html" target="_blank" rel="noopener">View Notebook &#8599;</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.0s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 16</div>
+        </div>
+        <div class="project-title">Adult Mortality Rate Analysis</div>
+        <button class="dash-preview" type="button" data-full="previews/mort.webp" aria-label="Enlarge dashboard preview: Adult Mortality Rate Analysis">
+          <img src="previews/mort.webp" alt="Dashboard preview of Adult Mortality Rate Analysis: countries with the highest male adult mortality and the average by sex" width="1200" height="675" loading="lazy">
+          <span class="dp-zoom">View larger</span>
+        </button>
+        <p class="project-desc">
+          Country-level analysis of adult mortality rates by sex, continent and level of development. Showed that average male mortality (about 202) was higher than female (about 131), that Africa had the highest mortality among the continents, and that countries at a low development level had higher mortality rates. Also compared countries by population size and ranked countries within Africa.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">pandas</span>
+          <span class="tag amber">Seaborn</span>
+          <span class="tag amber">Public Health</span>
+          <span class="tag purple">Mortality</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link outline" href="notebooks/adult-mortality.html" target="_blank" rel="noopener">View Notebook &#8599;</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.07s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 17</div>
+        </div>
+        <div class="project-title">Bike Sharing Demand Analysis</div>
+        <button class="dash-preview" type="button" data-full="previews/bike.webp" aria-label="Enlarge dashboard preview: Bike Sharing Demand Analysis">
+          <img src="previews/bike.webp" alt="Dashboard preview of Bike Sharing Demand Analysis: total and average rentals by season and registered vs casual users" width="1200" height="675" loading="lazy">
+          <span class="dp-zoom">View larger</span>
+        </button>
+        <p class="project-desc">
+          Analyzed bike rental data to understand demand patterns. Looked at the seasons in the data, which year and season had the most rentals, average rentals per day, the share of casual versus registered users, and how temperature relates to rentals within each season, with charts to show seasonal usage.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">pandas</span>
+          <span class="tag amber">Seaborn</span>
+          <span class="tag amber">Time Patterns</span>
+          <span class="tag purple">Correlation</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link outline" href="notebooks/bike-sharing.html" target="_blank" rel="noopener">View Notebook &#8599;</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.14s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 18</div>
+        </div>
+        <div class="project-title">Health Dataset Cleaning &amp; Analysis</div>
+        <button class="dash-preview" type="button" data-full="previews/health.webp" aria-label="Enlarge dashboard preview: Health Dataset Cleaning &amp; Analysis">
+          <img src="previews/health.webp" alt="Dashboard preview of Health Dataset Cleaning &amp; Analysis: missing values before cleaning and the age-weight correlation" width="1200" height="675" loading="lazy">
+          <span class="dp-zoom">View larger</span>
+        </button>
+        <p class="project-desc">
+          Cleaned and analyzed a patient dataset with age, sex, weight, height, BMI, blood pressure and blood glucose readings. Checked each column for data types and missing values, filled the gaps, and confirmed the dataset had no remaining nulls. Then analyzed BMI categories, age differences by sex, and how weight relates to blood pressure and age.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">pandas</span>
+          <span class="tag amber">Data Cleaning</span>
+          <span class="tag amber">Healthcare</span>
+          <span class="tag purple">Correlation</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link outline" href="notebooks/health-dataset.html" target="_blank" rel="noopener">View Notebook &#8599;</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.21s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 19</div>
+        </div>
+        <div class="project-title">Product Sales Analytics</div>
+        <button class="dash-preview" type="button" data-full="previews/prod.webp" aria-label="Enlarge dashboard preview: Product Sales Analytics">
+          <img src="previews/prod.webp" alt="Dashboard preview of Product Sales Analytics: total sales, number of sales and average sale by product" width="1200" height="675" loading="lazy">
+          <span class="dp-zoom">View larger</span>
+        </button>
+        <p class="project-desc">
+          Sales analysis that counts how often each product appears, calculates the average sale amount (about 171), and ranks the top products by total sales. Product C appeared most often and had the highest total sales, while Product E appeared least. Results were shown with summary tables and bar charts.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">pandas</span>
+          <span class="tag amber">Matplotlib</span>
+          <span class="tag amber">Sales Analytics</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link outline" href="notebooks/product-sales.html" target="_blank" rel="noopener">View Notebook &#8599;</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.0s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 20</div>
+        </div>
+        <div class="project-title">Student Results Analysis (Matokeo ya Wanafunzi)</div>
+        <button class="dash-preview" type="button" data-full="previews/results.webp" aria-label="Enlarge dashboard preview: Student Results Analysis (Matokeo ya Wanafunzi)">
+          <img src="previews/results.webp" alt="Dashboard preview of Student Results Analysis (Matokeo ya Wanafunzi): students by gender, school ownership and subject combination" width="1200" height="675" loading="lazy">
+          <span class="dp-zoom">View larger</span>
+        </button>
+        <p class="project-desc">
+          Analysis of national examination results in Kiswahili and English. Cleaned the data (including filling missing values with scikit-learn&rsquo;s SimpleImputer) and compared performance by gender, region, school, school ownership and subject combination. Government schools produced the most passing students, and the PCM combination had the most successful students.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag amber">scikit-learn</span>
+          <span class="tag amber">Data Cleaning</span>
+          <span class="tag amber">Education Analytics</span>
+          <span class="tag purple">Kiswahili</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link outline" href="notebooks/student-results.html" target="_blank" rel="noopener">View Notebook &#8599;</a>
+        </div>
+      </div>
+
+      <div class="project-card reveal" style="transition-delay:0.07s">
+        <div class="project-head">
+          <div class="project-num">PROJECT / 21</div>
+        </div>
+        <div class="project-title">Class Performance Analytics (Class of 2022)</div>
+        <button class="dash-preview" type="button" data-full="previews/class22.webp" aria-label="Enlarge dashboard preview: Class Performance Analytics (Class of 2022)">
+          <img src="previews/class22.webp" alt="Dashboard preview of Class Performance Analytics (Class of 2022): results by division and division by gender" width="1200" height="675" loading="lazy">
+          <span class="dp-zoom">View larger</span>
+        </button>
+        <p class="project-desc">
+          Analysis of examination results for a class of 53 students (24 male, 29 female). Summarized results by division: 13 in Division I, 26 in Division II and 13 in Division III, with no Division IV and one absent student. Compared male and female performance by division and analyzed performance across subjects, using pandas summaries and visualizations.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">pandas</span>
+          <span class="tag amber">Seaborn</span>
+          <span class="tag amber">Education Analytics</span>
+        </div>
+        <div class="project-links">
+          <a class="project-link outline" href="notebooks/class-performance-2022.html" target="_blank" rel="noopener">View Notebook &#8599;</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ EXPERIENCE ══ -->
+  <section id="experience">
+    <div class="section-label">04 &mdash; Background</div>
+    <h2 class="section-title">My Qualifications &amp; Experience</h2>
+    <div class="divider"></div>
+    <div class="exp-grid">
+
+      <div class="exp-col reveal">
+        <div class="exp-heading">🎓 Qualification</div>
+        <div class="exp-timeline">
+          <article class="exp-card">
+            <div class="exp-date">2023 &ndash; 2026</div>
+            <h3 class="exp-title">Bachelor Degree in Data Science</h3>
+            <div class="exp-org">Eastern Africa Statistical Training Centre (EASTC), Tanzania</div>
+            <div class="exp-tags"><span class="tag">Data Science</span></div>
+          </article>
+        </div>
+      </div>
+
+      <div class="exp-col reveal" style="transition-delay:0.12s">
+        <div class="exp-heading">💼 Experience</div>
+        <div class="exp-timeline">
+          <article class="exp-card">
+            <div class="exp-date">2025 &ndash; 2026</div>
+            <h3 class="exp-title">Sales Agent &amp; Freelancer</h3>
+            <div class="exp-org">Yas and Airtel</div>
+            <div class="exp-tags"><span class="tag amber">Sales</span><span class="tag amber">Freelance</span></div>
+          </article>
+          <article class="exp-card">
+            <h3 class="exp-title">Assistant Supervisor</h3>
+            <div class="exp-org">Forever Living Products Tanzania</div>
+            <div class="exp-tags"><span class="tag purple">Supervision</span></div>
+          </article>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══ CONTACT ══ -->
+  <section id="contact">
+    <div class="section-label">05 &mdash; Contact</div>
+    <h2 class="section-title">Get In Touch</h2>
+    <div class="divider"></div>
+    <div class="contact-inner">
+      <div class="contact-text reveal">
+        <p>
+          I am open to analytics projects, research collaborations, consultancy work,
+          and full-time opportunities. If you have data challenges that need expert analysis,
+          or you would like to discuss a potential engagement, please do not hesitate to reach out.
+        </p>
+        <p>
+          Whether you need a custom analytics dashboard, a statistical report,
+          a predictive model, or simply a consultation on your data strategy &mdash;
+          I am ready to help turn your data into decisions.
+        </p>
+      </div>
+
+      <ul class="contact-list reveal" style="transition-delay:0.15s">
+        <li>
+          <div class="c-icon">📧</div>
+          <div class="c-info">
+            <div class="c-label">Email</div>
+            <div class="c-value">
+              <a href="mailto:stanslausmrope@gmail.com">stanslausmrope@gmail.com</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="c-icon">📞</div>
+          <div class="c-info">
+            <div class="c-label">Phone Number</div>
+            <div class="c-value">0612151967</div>
+          </div>
+        </li>
+        <li>
+          <div class="c-icon">📘</div>
+          <div class="c-info">
+            <div class="c-label">Facebook Account</div>
+            <div class="c-value">Stanslaus Mrope</div>
+          </div>
+        </li>
+        <li>
+          <div class="c-icon">🎵</div>
+          <div class="c-info">
+            <div class="c-label">TikTok Account</div>
+            <div class="c-value">amani_na_afya</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <footer>
+    &copy; 2025 <span>Stanslaus Mrope</span> &mdash; Data Analyst &mdash; Tanzania
+  </footer>
+
+  <!-- ══ JAVASCRIPT ══ -->
+
+  <script src="interactions.js" defer></script>
+  <script>
+    /* Scroll reveal */
+    const reveals = document.querySelectorAll('.reveal');
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          obs.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(r => obs.observe(r));
+
+    /* Hamburger menu */
+    const btn  = document.getElementById('hamburger');
+    const menu = document.getElementById('mobileMenu');
+
+    btn.addEventListener('click', () => {
+      const open = menu.classList.toggle('open');
+      btn.classList.toggle('open', open);
+      document.body.style.overflow = open ? 'hidden' : '';
+    });
+
+    function closeMenu() {
+      menu.classList.remove('open');
+      btn.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+  </script>
+
+  
+</body>
+</html>
